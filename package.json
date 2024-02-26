@@ -1,10 +1,12 @@
 {
-  "name": "newbiann",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "newsbians",
+  "version": "0.0.4",
+  "description": "Data transformation",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodeunit",
+    "watch": "./watch.sh",
+    "prepublish": "babel -d lib src"
   },
   "repository": {
     "type": "git",
@@ -15,6 +17,16 @@
     "data",
     "transformation"
   ],
-  "author": "BL (https://github.com/anyi0509/newbian.git)",
-  "license": "ISC"
+  "author": "F1 <liu1@gmail.com> (https://github.com/anyi0509/newbian.git)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geastwood/bian/issues"
+  },
+  "homepage": "https://github.com/geastwood/bian#readme",
+  "devDependencies": {
+    "babel": "^5.8.9"
+  },
+  "dependencies": {
+    "lodash.curry": "^3.0.2"
+  }
 }
