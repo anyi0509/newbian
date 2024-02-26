@@ -1,32 +1,20 @@
 {
-  "name": "bian",
-  "version": "0.0.4",
-  "description": "Data transformation",
-  "main": "lib/index.js",
+  "name": "newbiann",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "nodeunit",
-    "watch": "./watch.sh",
-    "prepublish": "babel -d lib src"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/geastwood/bian.git"
+    "url": "https://github.com/anyi0509/newbian.git"
   },
   "keywords": [
     "functional",
     "data",
     "transformation"
   ],
-  "author": "Fei Liu <liu.feiwood@gmail.com> (https://github.com/geastwood)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/geastwood/bian/issues"
-  },
-  "homepage": "https://github.com/geastwood/bian#readme",
-  "devDependencies": {
-    "babel": "^5.8.9"
-  },
-  "dependencies": {
-    "lodash.curry": "^3.0.2"
-  }
+  "author": "BL (https://github.com/anyi0509/newbian.git)",
+  "license": "ISC"
 }
