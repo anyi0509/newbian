@@ -1,12 +1,11 @@
 {
-  "name": "newsbians",
-  "version": "0.0.4",
+  "name": "nssbai",
+  "version": "1.0.0",
   "description": "Data transformation",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
-    "test": "nodeunit",
-    "watch": "./watch.sh",
-    "prepublish": "babel -d lib src"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -17,16 +16,6 @@
     "data",
     "transformation"
   ],
-  "author": "F1 <liu1@gmail.com> (https://github.com/anyi0509/newbian.git)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/geastwood/bian/issues"
-  },
-  "homepage": "https://github.com/geastwood/bian#readme",
-  "devDependencies": {
-    "babel": "^5.8.9"
-  },
-  "dependencies": {
-    "lodash.curry": "^3.0.2"
-  }
+  "author": "BL (https://github.com/anyi0509/newbian.git)",
+  "license": "ISC"
 }
